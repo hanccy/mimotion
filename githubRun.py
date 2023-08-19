@@ -195,6 +195,6 @@ if __name__ == '__main__':
     password = sys.argv[2]
     pushplus_token = sys.argv[3]
     ##刷步数
-    res = main(181512986@qq.com, 159753Aa, 5000, 8000)
+    res = main(user, password, 4000, 5000)
     # 推送消息
     pushMessage(pushplus_token, "刷步接口调用", res)
